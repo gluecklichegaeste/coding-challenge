@@ -1,0 +1,2504 @@
+[
+    {
+        "Datum": "2024-10-01",
+        "Preis": 31.71,
+        "Produktname": "Feuchtigkeitscreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-01",
+        "Preis": 131.25,
+        "Produktname": "Shampoo",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-01",
+        "Preis": 139.67,
+        "Produktname": "Sonnencreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-01",
+        "Preis": 147.71,
+        "Produktname": "Seife",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-01",
+        "Preis": 16.49,
+        "Produktname": "Nudeln",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-01",
+        "Preis": 43.05,
+        "Produktname": "Brot",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-01",
+        "Preis": 143.7,
+        "Produktname": "Feuchtigkeitscreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-01",
+        "Preis": 133.39,
+        "Produktname": "Käse",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-01",
+        "Preis": 101.36,
+        "Produktname": "Nudeln",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-02",
+        "Preis": 148.43,
+        "Produktname": "Hundefutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-02",
+        "Preis": 133.77,
+        "Produktname": "Käse",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-02",
+        "Preis": 98.28,
+        "Produktname": "Aquarienzubehör",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-02",
+        "Preis": 42.71,
+        "Produktname": "Vogelfutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-02",
+        "Preis": 119.38,
+        "Produktname": "Seife",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-02",
+        "Preis": 57.39,
+        "Produktname": "Vogelfutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-02",
+        "Preis": 142.62,
+        "Produktname": "Feuchtigkeitscreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-02",
+        "Preis": 113.48,
+        "Produktname": "Apfel",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-02",
+        "Preis": 67.6,
+        "Produktname": "Milch",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-02",
+        "Preis": 38.31,
+        "Produktname": "Seife",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-02",
+        "Preis": 117.46,
+        "Produktname": "Hundefutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-02",
+        "Preis": 125.45,
+        "Produktname": "Zahnpasta",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-02",
+        "Preis": 6.15,
+        "Produktname": "Nudeln",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-03",
+        "Preis": 87.8,
+        "Produktname": "Sonnencreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-03",
+        "Preis": 29.05,
+        "Produktname": "Sonnencreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-03",
+        "Preis": 107.33,
+        "Produktname": "Apfel",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-03",
+        "Preis": 132.97,
+        "Produktname": "Vogelfutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-03",
+        "Preis": 27.85,
+        "Produktname": "Vogelfutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-03",
+        "Preis": 65.2,
+        "Produktname": "Seife",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-03",
+        "Preis": 105.15,
+        "Produktname": "Katzensnacks",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-03",
+        "Preis": 55.2,
+        "Produktname": "Katzensnacks",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-03",
+        "Preis": 99.34,
+        "Produktname": "Vogelfutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-04",
+        "Preis": 125.67,
+        "Produktname": "Brot",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-04",
+        "Preis": 114.47,
+        "Produktname": "Apfel",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-04",
+        "Preis": 93.87,
+        "Produktname": "Käse",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-04",
+        "Preis": 26.37,
+        "Produktname": "Seife",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-04",
+        "Preis": 94.75,
+        "Produktname": "Sonnencreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-05",
+        "Preis": 114.84,
+        "Produktname": "Brot",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-05",
+        "Preis": 65.38,
+        "Produktname": "Vogelfutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-05",
+        "Preis": 33.23,
+        "Produktname": "Shampoo",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-05",
+        "Preis": 72.02,
+        "Produktname": "Brot",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-05",
+        "Preis": 40.63,
+        "Produktname": "Feuchtigkeitscreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-05",
+        "Preis": 100.42,
+        "Produktname": "Vogelfutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-05",
+        "Preis": 14.05,
+        "Produktname": "Brot",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-05",
+        "Preis": 114.48,
+        "Produktname": "Katzensnacks",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-05",
+        "Preis": 89.31,
+        "Produktname": "Zahnpasta",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-05",
+        "Preis": 134.99,
+        "Produktname": "Seife",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-06",
+        "Preis": 87.35,
+        "Produktname": "Shampoo",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-06",
+        "Preis": 89.9,
+        "Produktname": "Milch",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-06",
+        "Preis": 103.67,
+        "Produktname": "Feuchtigkeitscreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-06",
+        "Preis": 44.68,
+        "Produktname": "Shampoo",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-06",
+        "Preis": 108.95,
+        "Produktname": "Sonnencreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-06",
+        "Preis": 112.9,
+        "Produktname": "Käse",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-06",
+        "Preis": 36.78,
+        "Produktname": "Shampoo",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-06",
+        "Preis": 71.44,
+        "Produktname": "Katzensnacks",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-06",
+        "Preis": 74.62,
+        "Produktname": "Brot",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-06",
+        "Preis": 105.1,
+        "Produktname": "Seife",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-07",
+        "Preis": 49.05,
+        "Produktname": "Shampoo",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-07",
+        "Preis": 90.53,
+        "Produktname": "Feuchtigkeitscreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-07",
+        "Preis": 107.57,
+        "Produktname": "Aquarienzubehör",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-07",
+        "Preis": 46.86,
+        "Produktname": "Katzensnacks",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-07",
+        "Preis": 9.0,
+        "Produktname": "Katzensnacks",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-07",
+        "Preis": 53.41,
+        "Produktname": "Käse",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-07",
+        "Preis": 72.15,
+        "Produktname": "Sonnencreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-07",
+        "Preis": 102.02,
+        "Produktname": "Apfel",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-08",
+        "Preis": 89.8,
+        "Produktname": "Brot",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-08",
+        "Preis": 52.85,
+        "Produktname": "Apfel",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-08",
+        "Preis": 8.96,
+        "Produktname": "Aquarienzubehör",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-08",
+        "Preis": 115.05,
+        "Produktname": "Apfel",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-08",
+        "Preis": 31.8,
+        "Produktname": "Aquarienzubehör",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-08",
+        "Preis": 52.74,
+        "Produktname": "Vogelfutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-08",
+        "Preis": 144.22,
+        "Produktname": "Feuchtigkeitscreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-08",
+        "Preis": 57.16,
+        "Produktname": "Aquarienzubehör",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-08",
+        "Preis": 113.71,
+        "Produktname": "Apfel",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-08",
+        "Preis": 94.14,
+        "Produktname": "Brot",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-08",
+        "Preis": 139.17,
+        "Produktname": "Aquarienzubehör",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-08",
+        "Preis": 52.65,
+        "Produktname": "Seife",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-08",
+        "Preis": 80.88,
+        "Produktname": "Brot",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-08",
+        "Preis": 89.97,
+        "Produktname": "Sonnencreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-09",
+        "Preis": 48.81,
+        "Produktname": "Käse",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-09",
+        "Preis": 19.21,
+        "Produktname": "Feuchtigkeitscreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-09",
+        "Preis": 50.81,
+        "Produktname": "Sonnencreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-10",
+        "Preis": 57.89,
+        "Produktname": "Käse",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-10",
+        "Preis": 92.48,
+        "Produktname": "Katzensnacks",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-10",
+        "Preis": 120.83,
+        "Produktname": "Seife",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-10",
+        "Preis": 67.92,
+        "Produktname": "Sonnencreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-10",
+        "Preis": 77.34,
+        "Produktname": "Shampoo",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-10",
+        "Preis": 35.23,
+        "Produktname": "Feuchtigkeitscreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-10",
+        "Preis": 20.36,
+        "Produktname": "Sonnencreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-10",
+        "Preis": 148.96,
+        "Produktname": "Feuchtigkeitscreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-10",
+        "Preis": 50.66,
+        "Produktname": "Katzensnacks",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-10",
+        "Preis": 49.63,
+        "Produktname": "Hundefutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-10",
+        "Preis": 73.69,
+        "Produktname": "Vogelfutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-11",
+        "Preis": 36.2,
+        "Produktname": "Hundefutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-11",
+        "Preis": 81.77,
+        "Produktname": "Seife",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-11",
+        "Preis": 101.01,
+        "Produktname": "Zahnpasta",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-11",
+        "Preis": 65.38,
+        "Produktname": "Feuchtigkeitscreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-11",
+        "Preis": 130.16,
+        "Produktname": "Shampoo",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-11",
+        "Preis": 85.01,
+        "Produktname": "Shampoo",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-12",
+        "Preis": 112.63,
+        "Produktname": "Sonnencreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-12",
+        "Preis": 72.06,
+        "Produktname": "Feuchtigkeitscreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-12",
+        "Preis": 139.22,
+        "Produktname": "Vogelfutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-12",
+        "Preis": 41.87,
+        "Produktname": "Shampoo",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-13",
+        "Preis": 47.86,
+        "Produktname": "Hundefutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-13",
+        "Preis": 92.29,
+        "Produktname": "Vogelfutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-13",
+        "Preis": 113.13,
+        "Produktname": "Sonnencreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-14",
+        "Preis": 8.83,
+        "Produktname": "Käse",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-14",
+        "Preis": 58.66,
+        "Produktname": "Milch",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-14",
+        "Preis": 92.96,
+        "Produktname": "Shampoo",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-14",
+        "Preis": 135.36,
+        "Produktname": "Brot",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-15",
+        "Preis": 67.1,
+        "Produktname": "Vogelfutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-15",
+        "Preis": 8.92,
+        "Produktname": "Vogelfutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-15",
+        "Preis": 14.14,
+        "Produktname": "Shampoo",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-15",
+        "Preis": 122.23,
+        "Produktname": "Hundefutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-15",
+        "Preis": 117.57,
+        "Produktname": "Sonnencreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-15",
+        "Preis": 66.42,
+        "Produktname": "Käse",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-15",
+        "Preis": 133.02,
+        "Produktname": "Aquarienzubehör",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-15",
+        "Preis": 19.01,
+        "Produktname": "Käse",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-15",
+        "Preis": 62.81,
+        "Produktname": "Milch",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-15",
+        "Preis": 135.59,
+        "Produktname": "Nudeln",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-15",
+        "Preis": 9.52,
+        "Produktname": "Sonnencreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-15",
+        "Preis": 66.78,
+        "Produktname": "Feuchtigkeitscreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-15",
+        "Preis": 63.1,
+        "Produktname": "Zahnpasta",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-16",
+        "Preis": 145.66,
+        "Produktname": "Milch",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-16",
+        "Preis": 55.02,
+        "Produktname": "Milch",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-16",
+        "Preis": 12.37,
+        "Produktname": "Milch",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-16",
+        "Preis": 105.91,
+        "Produktname": "Aquarienzubehör",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-16",
+        "Preis": 88.06,
+        "Produktname": "Katzensnacks",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-16",
+        "Preis": 147.86,
+        "Produktname": "Zahnpasta",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-16",
+        "Preis": 6.09,
+        "Produktname": "Apfel",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-16",
+        "Preis": 131.42,
+        "Produktname": "Seife",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-16",
+        "Preis": 97.04,
+        "Produktname": "Katzensnacks",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-17",
+        "Preis": 34.11,
+        "Produktname": "Vogelfutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-17",
+        "Preis": 16.11,
+        "Produktname": "Hundefutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-17",
+        "Preis": 37.65,
+        "Produktname": "Zahnpasta",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-17",
+        "Preis": 44.91,
+        "Produktname": "Apfel",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-17",
+        "Preis": 148.11,
+        "Produktname": "Aquarienzubehör",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-17",
+        "Preis": 73.96,
+        "Produktname": "Käse",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-17",
+        "Preis": 59.47,
+        "Produktname": "Käse",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-17",
+        "Preis": 149.39,
+        "Produktname": "Hundefutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-17",
+        "Preis": 83.22,
+        "Produktname": "Nudeln",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-18",
+        "Preis": 5.25,
+        "Produktname": "Vogelfutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-18",
+        "Preis": 9.06,
+        "Produktname": "Hundefutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-18",
+        "Preis": 32.98,
+        "Produktname": "Feuchtigkeitscreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-18",
+        "Preis": 71.32,
+        "Produktname": "Käse",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-19",
+        "Preis": 53.03,
+        "Produktname": "Shampoo",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-19",
+        "Preis": 77.34,
+        "Produktname": "Feuchtigkeitscreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-19",
+        "Preis": 102.01,
+        "Produktname": "Nudeln",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-19",
+        "Preis": 91.72,
+        "Produktname": "Milch",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-19",
+        "Preis": 110.15,
+        "Produktname": "Feuchtigkeitscreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-19",
+        "Preis": 83.07,
+        "Produktname": "Apfel",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-20",
+        "Preis": 124.14,
+        "Produktname": "Hundefutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-20",
+        "Preis": 54.42,
+        "Produktname": "Vogelfutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-20",
+        "Preis": 71.13,
+        "Produktname": "Vogelfutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-20",
+        "Preis": 86.21,
+        "Produktname": "Nudeln",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-20",
+        "Preis": 103.41,
+        "Produktname": "Katzensnacks",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-20",
+        "Preis": 53.89,
+        "Produktname": "Hundefutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-20",
+        "Preis": 46.35,
+        "Produktname": "Aquarienzubehör",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-20",
+        "Preis": 144.32,
+        "Produktname": "Brot",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-20",
+        "Preis": 71.54,
+        "Produktname": "Feuchtigkeitscreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-20",
+        "Preis": 76.69,
+        "Produktname": "Käse",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-20",
+        "Preis": 16.16,
+        "Produktname": "Seife",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-21",
+        "Preis": 70.11,
+        "Produktname": "Shampoo",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-21",
+        "Preis": 108.49,
+        "Produktname": "Shampoo",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-21",
+        "Preis": 21.33,
+        "Produktname": "Katzensnacks",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-21",
+        "Preis": 23.15,
+        "Produktname": "Nudeln",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-21",
+        "Preis": 81.75,
+        "Produktname": "Käse",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-21",
+        "Preis": 146.81,
+        "Produktname": "Shampoo",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-22",
+        "Preis": 106.92,
+        "Produktname": "Milch",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-22",
+        "Preis": 21.25,
+        "Produktname": "Aquarienzubehör",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-22",
+        "Preis": 53.04,
+        "Produktname": "Brot",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-22",
+        "Preis": 89.76,
+        "Produktname": "Aquarienzubehör",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-22",
+        "Preis": 39.51,
+        "Produktname": "Katzensnacks",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-22",
+        "Preis": 147.26,
+        "Produktname": "Zahnpasta",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-23",
+        "Preis": 120.3,
+        "Produktname": "Shampoo",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-23",
+        "Preis": 85.58,
+        "Produktname": "Hundefutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-23",
+        "Preis": 93.64,
+        "Produktname": "Vogelfutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-23",
+        "Preis": 62.28,
+        "Produktname": "Aquarienzubehör",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-24",
+        "Preis": 118.27,
+        "Produktname": "Vogelfutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-24",
+        "Preis": 12.4,
+        "Produktname": "Aquarienzubehör",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-24",
+        "Preis": 82.02,
+        "Produktname": "Aquarienzubehör",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-24",
+        "Preis": 120.39,
+        "Produktname": "Zahnpasta",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-24",
+        "Preis": 15.23,
+        "Produktname": "Shampoo",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-24",
+        "Preis": 147.79,
+        "Produktname": "Nudeln",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-24",
+        "Preis": 58.34,
+        "Produktname": "Brot",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-24",
+        "Preis": 104.58,
+        "Produktname": "Vogelfutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-25",
+        "Preis": 105.68,
+        "Produktname": "Katzensnacks",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-25",
+        "Preis": 70.75,
+        "Produktname": "Shampoo",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-25",
+        "Preis": 82.16,
+        "Produktname": "Vogelfutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-25",
+        "Preis": 69.48,
+        "Produktname": "Sonnencreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-25",
+        "Preis": 65.32,
+        "Produktname": "Shampoo",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-25",
+        "Preis": 144.94,
+        "Produktname": "Katzensnacks",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-25",
+        "Preis": 138.41,
+        "Produktname": "Milch",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-25",
+        "Preis": 58.45,
+        "Produktname": "Feuchtigkeitscreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-26",
+        "Preis": 32.11,
+        "Produktname": "Hundefutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-26",
+        "Preis": 131.62,
+        "Produktname": "Hundefutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-26",
+        "Preis": 53.37,
+        "Produktname": "Vogelfutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-26",
+        "Preis": 53.27,
+        "Produktname": "Seife",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-26",
+        "Preis": 58.38,
+        "Produktname": "Käse",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-26",
+        "Preis": 114.08,
+        "Produktname": "Nudeln",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-26",
+        "Preis": 31.71,
+        "Produktname": "Aquarienzubehör",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-26",
+        "Preis": 134.97,
+        "Produktname": "Käse",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-26",
+        "Preis": 69.56,
+        "Produktname": "Feuchtigkeitscreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-26",
+        "Preis": 118.76,
+        "Produktname": "Aquarienzubehör",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-26",
+        "Preis": 128.71,
+        "Produktname": "Nudeln",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-27",
+        "Preis": 16.14,
+        "Produktname": "Hundefutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-27",
+        "Preis": 95.56,
+        "Produktname": "Hundefutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-27",
+        "Preis": 96.35,
+        "Produktname": "Zahnpasta",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-27",
+        "Preis": 145.53,
+        "Produktname": "Feuchtigkeitscreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-27",
+        "Preis": 92.0,
+        "Produktname": "Nudeln",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-27",
+        "Preis": 133.92,
+        "Produktname": "Zahnpasta",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-27",
+        "Preis": 91.58,
+        "Produktname": "Sonnencreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-27",
+        "Preis": 16.3,
+        "Produktname": "Seife",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-27",
+        "Preis": 131.86,
+        "Produktname": "Katzensnacks",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-28",
+        "Preis": 135.27,
+        "Produktname": "Shampoo",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-28",
+        "Preis": 64.63,
+        "Produktname": "Sonnencreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-28",
+        "Preis": 12.38,
+        "Produktname": "Käse",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-28",
+        "Preis": 128.98,
+        "Produktname": "Milch",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-28",
+        "Preis": 67.06,
+        "Produktname": "Zahnpasta",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-28",
+        "Preis": 81.47,
+        "Produktname": "Milch",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-28",
+        "Preis": 39.42,
+        "Produktname": "Feuchtigkeitscreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-28",
+        "Preis": 50.35,
+        "Produktname": "Feuchtigkeitscreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-28",
+        "Preis": 28.67,
+        "Produktname": "Katzensnacks",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-28",
+        "Preis": 45.56,
+        "Produktname": "Seife",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-28",
+        "Preis": 122.36,
+        "Produktname": "Milch",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-28",
+        "Preis": 106.39,
+        "Produktname": "Sonnencreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-28",
+        "Preis": 64.92,
+        "Produktname": "Milch",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-28",
+        "Preis": 79.87,
+        "Produktname": "Feuchtigkeitscreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-29",
+        "Preis": 90.59,
+        "Produktname": "Seife",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-29",
+        "Preis": 58.38,
+        "Produktname": "Katzensnacks",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-29",
+        "Preis": 59.28,
+        "Produktname": "Seife",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-29",
+        "Preis": 137.74,
+        "Produktname": "Hundefutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-29",
+        "Preis": 98.58,
+        "Produktname": "Feuchtigkeitscreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-29",
+        "Preis": 70.3,
+        "Produktname": "Nudeln",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-29",
+        "Preis": 145.17,
+        "Produktname": "Hundefutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-29",
+        "Preis": 50.0,
+        "Produktname": "Zahnpasta",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-29",
+        "Preis": 100.53,
+        "Produktname": "Apfel",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-29",
+        "Preis": 70.35,
+        "Produktname": "Shampoo",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-29",
+        "Preis": 57.61,
+        "Produktname": "Katzensnacks",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-29",
+        "Preis": 78.94,
+        "Produktname": "Sonnencreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-29",
+        "Preis": 23.68,
+        "Produktname": "Milch",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-29",
+        "Preis": 109.45,
+        "Produktname": "Sonnencreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-30",
+        "Preis": 63.0,
+        "Produktname": "Katzensnacks",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-30",
+        "Preis": 73.42,
+        "Produktname": "Aquarienzubehör",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-30",
+        "Preis": 85.74,
+        "Produktname": "Hundefutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-30",
+        "Preis": 130.58,
+        "Produktname": "Feuchtigkeitscreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-30",
+        "Preis": 141.12,
+        "Produktname": "Shampoo",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-30",
+        "Preis": 106.25,
+        "Produktname": "Brot",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-30",
+        "Preis": 123.43,
+        "Produktname": "Vogelfutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-30",
+        "Preis": 46.67,
+        "Produktname": "Käse",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-30",
+        "Preis": 90.46,
+        "Produktname": "Sonnencreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-31",
+        "Preis": 93.21,
+        "Produktname": "Aquarienzubehör",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-31",
+        "Preis": 72.16,
+        "Produktname": "Zahnpasta",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-31",
+        "Preis": 5.31,
+        "Produktname": "Shampoo",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-31",
+        "Preis": 109.19,
+        "Produktname": "Milch",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-31",
+        "Preis": 103.1,
+        "Produktname": "Brot",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-31",
+        "Preis": 14.33,
+        "Produktname": "Shampoo",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-10-31",
+        "Preis": 24.24,
+        "Produktname": "Käse",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-10-31",
+        "Preis": 64.31,
+        "Produktname": "Vogelfutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-31",
+        "Preis": 95.87,
+        "Produktname": "Hundefutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-31",
+        "Preis": 145.14,
+        "Produktname": "Vogelfutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-10-31",
+        "Preis": 49.12,
+        "Produktname": "Vogelfutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-11-01",
+        "Preis": 90.44,
+        "Produktname": "Seife",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-11-01",
+        "Preis": 70.15,
+        "Produktname": "Hundefutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-11-01",
+        "Preis": 61.1,
+        "Produktname": "Sonnencreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-11-01",
+        "Preis": 112.46,
+        "Produktname": "Milch",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-11-01",
+        "Preis": 74.41,
+        "Produktname": "Seife",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-11-01",
+        "Preis": 10.29,
+        "Produktname": "Feuchtigkeitscreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-11-01",
+        "Preis": 128.57,
+        "Produktname": "Nudeln",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-11-01",
+        "Preis": 36.62,
+        "Produktname": "Shampoo",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-11-02",
+        "Preis": 124.65,
+        "Produktname": "Apfel",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-11-02",
+        "Preis": 89.76,
+        "Produktname": "Aquarienzubehör",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-11-02",
+        "Preis": 63.39,
+        "Produktname": "Apfel",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-11-02",
+        "Preis": 78.13,
+        "Produktname": "Vogelfutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-11-02",
+        "Preis": 46.23,
+        "Produktname": "Vogelfutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-11-02",
+        "Preis": 110.58,
+        "Produktname": "Vogelfutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-11-02",
+        "Preis": 119.8,
+        "Produktname": "Katzensnacks",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-11-02",
+        "Preis": 74.69,
+        "Produktname": "Hundefutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-11-03",
+        "Preis": 92.7,
+        "Produktname": "Feuchtigkeitscreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-11-03",
+        "Preis": 36.39,
+        "Produktname": "Vogelfutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-11-03",
+        "Preis": 113.49,
+        "Produktname": "Katzensnacks",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-11-03",
+        "Preis": 42.29,
+        "Produktname": "Käse",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-11-03",
+        "Preis": 40.33,
+        "Produktname": "Katzensnacks",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-11-03",
+        "Preis": 134.8,
+        "Produktname": "Vogelfutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-11-03",
+        "Preis": 82.08,
+        "Produktname": "Sonnencreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-11-03",
+        "Preis": 60.36,
+        "Produktname": "Katzensnacks",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-11-03",
+        "Preis": 35.25,
+        "Produktname": "Vogelfutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-11-03",
+        "Preis": 6.45,
+        "Produktname": "Brot",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-11-03",
+        "Preis": 5.41,
+        "Produktname": "Shampoo",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-11-03",
+        "Preis": 80.22,
+        "Produktname": "Zahnpasta",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-11-03",
+        "Preis": 10.05,
+        "Produktname": "Milch",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-11-04",
+        "Preis": 135.79,
+        "Produktname": "Milch",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-11-04",
+        "Preis": 41.77,
+        "Produktname": "Milch",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-11-04",
+        "Preis": 54.72,
+        "Produktname": "Nudeln",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-11-04",
+        "Preis": 45.25,
+        "Produktname": "Käse",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-11-04",
+        "Preis": 48.65,
+        "Produktname": "Sonnencreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-11-04",
+        "Preis": 22.78,
+        "Produktname": "Shampoo",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-11-04",
+        "Preis": 132.82,
+        "Produktname": "Feuchtigkeitscreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-11-04",
+        "Preis": 33.16,
+        "Produktname": "Käse",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-11-04",
+        "Preis": 16.81,
+        "Produktname": "Sonnencreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-11-04",
+        "Preis": 48.36,
+        "Produktname": "Feuchtigkeitscreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-11-04",
+        "Preis": 136.95,
+        "Produktname": "Feuchtigkeitscreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-11-04",
+        "Preis": 135.32,
+        "Produktname": "Vogelfutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-11-04",
+        "Preis": 27.19,
+        "Produktname": "Nudeln",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-11-04",
+        "Preis": 119.54,
+        "Produktname": "Zahnpasta",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-11-05",
+        "Preis": 8.63,
+        "Produktname": "Seife",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-11-05",
+        "Preis": 133.12,
+        "Produktname": "Feuchtigkeitscreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-11-05",
+        "Preis": 34.15,
+        "Produktname": "Vogelfutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-11-05",
+        "Preis": 91.65,
+        "Produktname": "Vogelfutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-11-05",
+        "Preis": 36.55,
+        "Produktname": "Brot",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-11-05",
+        "Preis": 22.53,
+        "Produktname": "Nudeln",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-11-05",
+        "Preis": 124.1,
+        "Produktname": "Apfel",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-11-05",
+        "Preis": 78.89,
+        "Produktname": "Zahnpasta",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-11-05",
+        "Preis": 81.34,
+        "Produktname": "Käse",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-11-05",
+        "Preis": 115.9,
+        "Produktname": "Zahnpasta",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-11-05",
+        "Preis": 145.45,
+        "Produktname": "Hundefutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-11-05",
+        "Preis": 129.48,
+        "Produktname": "Nudeln",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-11-05",
+        "Preis": 18.28,
+        "Produktname": "Brot",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-11-05",
+        "Preis": 78.95,
+        "Produktname": "Vogelfutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-11-05",
+        "Preis": 82.11,
+        "Produktname": "Käse",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-11-06",
+        "Preis": 6.88,
+        "Produktname": "Hundefutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-11-06",
+        "Preis": 6.34,
+        "Produktname": "Milch",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-11-06",
+        "Preis": 144.02,
+        "Produktname": "Brot",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-11-06",
+        "Preis": 116.19,
+        "Produktname": "Nudeln",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-11-07",
+        "Preis": 111.58,
+        "Produktname": "Vogelfutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-11-07",
+        "Preis": 137.01,
+        "Produktname": "Brot",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-11-07",
+        "Preis": 91.91,
+        "Produktname": "Katzensnacks",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-11-07",
+        "Preis": 44.9,
+        "Produktname": "Vogelfutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-11-07",
+        "Preis": 148.08,
+        "Produktname": "Zahnpasta",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-11-07",
+        "Preis": 111.55,
+        "Produktname": "Sonnencreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-11-07",
+        "Preis": 49.74,
+        "Produktname": "Brot",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-11-07",
+        "Preis": 22.28,
+        "Produktname": "Aquarienzubehör",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-11-07",
+        "Preis": 47.75,
+        "Produktname": "Milch",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-11-08",
+        "Preis": 69.95,
+        "Produktname": "Apfel",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-11-08",
+        "Preis": 12.95,
+        "Produktname": "Shampoo",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-11-08",
+        "Preis": 101.97,
+        "Produktname": "Katzensnacks",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-11-08",
+        "Preis": 135.45,
+        "Produktname": "Sonnencreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-11-08",
+        "Preis": 144.16,
+        "Produktname": "Shampoo",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-11-08",
+        "Preis": 80.78,
+        "Produktname": "Nudeln",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-11-08",
+        "Preis": 60.2,
+        "Produktname": "Brot",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-11-08",
+        "Preis": 16.37,
+        "Produktname": "Seife",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-11-08",
+        "Preis": 17.87,
+        "Produktname": "Zahnpasta",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-11-08",
+        "Preis": 130.25,
+        "Produktname": "Feuchtigkeitscreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-11-08",
+        "Preis": 24.45,
+        "Produktname": "Hundefutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-11-08",
+        "Preis": 78.89,
+        "Produktname": "Shampoo",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-11-08",
+        "Preis": 86.59,
+        "Produktname": "Nudeln",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-11-08",
+        "Preis": 70.9,
+        "Produktname": "Zahnpasta",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-11-08",
+        "Preis": 138.96,
+        "Produktname": "Vogelfutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-11-09",
+        "Preis": 44.28,
+        "Produktname": "Hundefutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-11-09",
+        "Preis": 6.83,
+        "Produktname": "Aquarienzubehör",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-11-09",
+        "Preis": 145.34,
+        "Produktname": "Nudeln",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-11-10",
+        "Preis": 147.11,
+        "Produktname": "Apfel",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-11-10",
+        "Preis": 120.64,
+        "Produktname": "Nudeln",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-11-10",
+        "Preis": 21.73,
+        "Produktname": "Feuchtigkeitscreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-11-10",
+        "Preis": 33.87,
+        "Produktname": "Zahnpasta",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-11-10",
+        "Preis": 64.44,
+        "Produktname": "Brot",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-11-10",
+        "Preis": 107.31,
+        "Produktname": "Vogelfutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-11-10",
+        "Preis": 40.69,
+        "Produktname": "Milch",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-11-10",
+        "Preis": 94.37,
+        "Produktname": "Sonnencreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-11-10",
+        "Preis": 128.23,
+        "Produktname": "Nudeln",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-11-10",
+        "Preis": 91.04,
+        "Produktname": "Sonnencreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-11-10",
+        "Preis": 100.64,
+        "Produktname": "Nudeln",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-11-10",
+        "Preis": 31.04,
+        "Produktname": "Vogelfutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-11-10",
+        "Preis": 116.22,
+        "Produktname": "Brot",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-11-10",
+        "Preis": 67.58,
+        "Produktname": "Shampoo",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-11-10",
+        "Preis": 111.54,
+        "Produktname": "Katzensnacks",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-11-11",
+        "Preis": 40.55,
+        "Produktname": "Nudeln",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-11-11",
+        "Preis": 17.33,
+        "Produktname": "Käse",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-11-11",
+        "Preis": 7.89,
+        "Produktname": "Käse",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-11-11",
+        "Preis": 55.74,
+        "Produktname": "Sonnencreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-11-11",
+        "Preis": 109.51,
+        "Produktname": "Brot",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-11-11",
+        "Preis": 128.27,
+        "Produktname": "Zahnpasta",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-11-11",
+        "Preis": 15.0,
+        "Produktname": "Katzensnacks",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-11-11",
+        "Preis": 146.34,
+        "Produktname": "Vogelfutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-11-11",
+        "Preis": 144.21,
+        "Produktname": "Hundefutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-11-11",
+        "Preis": 90.0,
+        "Produktname": "Brot",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-11-12",
+        "Preis": 109.62,
+        "Produktname": "Zahnpasta",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-11-12",
+        "Preis": 36.29,
+        "Produktname": "Shampoo",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-11-12",
+        "Preis": 30.76,
+        "Produktname": "Käse",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-11-12",
+        "Preis": 124.59,
+        "Produktname": "Milch",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-11-12",
+        "Preis": 36.83,
+        "Produktname": "Shampoo",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-11-13",
+        "Preis": 86.64,
+        "Produktname": "Käse",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-11-13",
+        "Preis": 114.97,
+        "Produktname": "Aquarienzubehör",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-11-13",
+        "Preis": 74.5,
+        "Produktname": "Nudeln",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-11-13",
+        "Preis": 130.05,
+        "Produktname": "Vogelfutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-11-13",
+        "Preis": 111.0,
+        "Produktname": "Seife",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-11-13",
+        "Preis": 50.14,
+        "Produktname": "Milch",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-11-13",
+        "Preis": 75.3,
+        "Produktname": "Brot",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-11-13",
+        "Preis": 148.24,
+        "Produktname": "Aquarienzubehör",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-11-13",
+        "Preis": 111.11,
+        "Produktname": "Brot",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-11-13",
+        "Preis": 20.63,
+        "Produktname": "Hundefutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-11-13",
+        "Preis": 117.86,
+        "Produktname": "Seife",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-11-13",
+        "Preis": 25.42,
+        "Produktname": "Hundefutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-11-13",
+        "Preis": 45.07,
+        "Produktname": "Feuchtigkeitscreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-11-14",
+        "Preis": 130.4,
+        "Produktname": "Apfel",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-11-14",
+        "Preis": 97.95,
+        "Produktname": "Katzensnacks",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-11-14",
+        "Preis": 94.82,
+        "Produktname": "Aquarienzubehör",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-11-14",
+        "Preis": 144.23,
+        "Produktname": "Milch",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-11-14",
+        "Preis": 97.28,
+        "Produktname": "Zahnpasta",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-11-14",
+        "Preis": 26.36,
+        "Produktname": "Katzensnacks",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-11-14",
+        "Preis": 25.64,
+        "Produktname": "Zahnpasta",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-11-14",
+        "Preis": 77.47,
+        "Produktname": "Zahnpasta",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-11-14",
+        "Preis": 23.89,
+        "Produktname": "Hundefutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-11-14",
+        "Preis": 93.67,
+        "Produktname": "Brot",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-11-14",
+        "Preis": 101.4,
+        "Produktname": "Brot",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-11-14",
+        "Preis": 137.15,
+        "Produktname": "Vogelfutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-11-14",
+        "Preis": 117.32,
+        "Produktname": "Apfel",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-11-15",
+        "Preis": 83.06,
+        "Produktname": "Nudeln",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-11-15",
+        "Preis": 63.64,
+        "Produktname": "Käse",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-11-15",
+        "Preis": 136.23,
+        "Produktname": "Katzensnacks",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-11-15",
+        "Preis": 48.5,
+        "Produktname": "Nudeln",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-11-15",
+        "Preis": 128.16,
+        "Produktname": "Seife",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-11-15",
+        "Preis": 29.16,
+        "Produktname": "Vogelfutter",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-11-15",
+        "Preis": 42.23,
+        "Produktname": "Milch",
+        "Produktkategorie": "Nahrungsmittel"
+    },
+    {
+        "Datum": "2024-11-15",
+        "Preis": 27.14,
+        "Produktname": "Shampoo",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-11-15",
+        "Preis": 149.22,
+        "Produktname": "Sonnencreme",
+        "Produktkategorie": "Pflegeprodukte"
+    },
+    {
+        "Datum": "2024-11-15",
+        "Preis": 76.28,
+        "Produktname": "Aquarienzubehör",
+        "Produktkategorie": "Tierprodukte"
+    },
+    {
+        "Datum": "2024-11-15",
+        "Preis": 64.43,
+        "Produktname": "Seife",
+        "Produktkategorie": "Pflegeprodukte"
+    }
+]
