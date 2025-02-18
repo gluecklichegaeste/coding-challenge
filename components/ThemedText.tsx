@@ -5,7 +5,7 @@ import { useThemeColor } from '@/hooks/useThemeColor';
 export type ThemedTextProps = TextProps & {
   lightColor?: string;
   darkColor?: string;
-  type?: 'default' | 'title' | 'defaultSemiBold' | 'subtitle' | 'link';
+  type?: 'default' | 'title' | 'defaultSemiBold' | 'timeframeActive' | 'timeframeInactive' | 'calendarInactive' | 'calendarActive';
 };
 
 export function ThemedText({
@@ -24,8 +24,10 @@ export function ThemedText({
         type === 'default' ? styles.default : undefined,
         type === 'title' ? styles.title : undefined,
         type === 'defaultSemiBold' ? styles.defaultSemiBold : undefined,
-        type === 'subtitle' ? styles.subtitle : undefined,
-        type === 'link' ? styles.link : undefined,
+        type === 'timeframeActive' ? styles.timeframeActive : undefined,
+        type === 'timeframeInactive' ? styles.timeframeInactive : undefined,
+        type === 'calendarActive' ? styles.calendarActive : undefined,
+        type === 'calendarInactive' ? styles.calendarInactive : undefined,
         style,
       ]}
       {...rest}
@@ -35,26 +37,38 @@ export function ThemedText({
 
 const styles = StyleSheet.create({
   default: {
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 24,
+    fontWeight: 600,
+    color: '#FFF'
   },
-  defaultSemiBold: {
-    fontSize: 16,
+  subtitle: {
+    fontSize: 18,
     lineHeight: 24,
-    fontWeight: '600',
+    fontWeight: '500',
   },
   title: {
-    fontSize: 32,
+    fontSize: 20,
     fontWeight: 'bold',
     lineHeight: 32,
   },
-  subtitle: {
-    fontSize: 20,
-    fontWeight: 'bold',
-  },
-  link: {
+  timeframeInactive: {
     lineHeight: 30,
     fontSize: 16,
-    color: '#0a7ea4',
+    color: '#1E1E1E',
+  },
+  timeframeActive: {
+    lineHeight: 30,
+    fontSize: 16,
+    color: '#D4DDDE',
+  },
+
+  calendarInactive: {
+    color: '#0E392E',
+    fontSize: 14,
+  },
+  calendarActive: {
+    color: '#FFFFFF',
+    fontSize: 14,
   },
 });

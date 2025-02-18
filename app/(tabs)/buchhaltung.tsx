@@ -1,6 +1,7 @@
+import { Collapsible } from '@/components/Collapsible';
 import { StyleSheet, View, Text } from 'react-native';
 
-export default function TabTwoScreen() {
+export default function Buchhaltung() {
   return (
     <View>
       <Text>Hello</Text>
