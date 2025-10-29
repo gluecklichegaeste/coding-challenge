@@ -1,6 +1,8 @@
 // This file is a fallback for using MaterialIcons on Android and web.
 
 import MaterialIcons from '@expo/vector-icons/MaterialIcons';
+import Foundation from '@expo/vector-icons/Foundation';
+import FontAwesome5 from '@expo/vector-icons/FontAwesome5';
 import { SymbolWeight } from 'expo-symbols';
 import React from 'react';
 import { OpaqueColorValue, StyleProp, ViewStyle } from 'react-native';
@@ -13,10 +15,14 @@ const MAPPING = {
   'paperplane.fill': 'send',
   'chevron.left.forwardslash.chevron.right': 'code',
   'chevron.right': 'chevron-right',
+  'chart.pie.fill': 'pie-chart',
+  'calendar': 'calendar-alt',
+  'book.fill': 'task-alt',
+
 } as Partial<
   Record<
     import('expo-symbols').SymbolViewProps['name'],
-    React.ComponentProps<typeof MaterialIcons>['name']
+    React.ComponentProps<typeof MaterialIcons>['name'] | React.ComponentProps<typeof Foundation>['name'] | React.ComponentProps<typeof FontAwesome5>['name']
   >
 >;
 
