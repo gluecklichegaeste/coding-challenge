@@ -2,6 +2,7 @@ import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import SafeAreaEdges from '../constants/SafeAreaEdges';
+import LineChart from '../components/LineChart';
 
 const HomeScreen = () => {
     return (
@@ -12,9 +13,10 @@ const HomeScreen = () => {
             <View style={styles.daySelector}>
             </View>
             <View style={styles.dountChart}></View>
-            <View style={styles.lineChart}>
-
-            </View>
+            <LineChart
+                target={10000}
+                actual={2000}
+            />
         </SafeAreaView>
     );
 };
@@ -30,7 +32,6 @@ const styles = StyleSheet.create({
     },
     dountChart: {
         flex: 1,
-        backgroundColor: 'red',
         justifyContent: 'center',
         alignItems: 'center', paddingHorizontal: 24,
     },
