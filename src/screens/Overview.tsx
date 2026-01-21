@@ -25,10 +25,7 @@ const OverViewScreen = () => {
     const [selectedDate, setSelectedDate] = useState<moment.Moment>(moment('2024-11-01'));
     const [selectedRange, setSelectedRange] = useState<RangeType>('1w');
     const [showRevenueChart, setShowRevenueChart] = useState(true);
-
     const { donutChartData, lineChartData, totalSales } = useSalesData(selectedDate, selectedRange);
-
-    // Coin flip animation
     const rotation = useSharedValue(0);
 
     useEffect(() => {
