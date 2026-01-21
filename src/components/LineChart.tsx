@@ -5,6 +5,8 @@ import moment from 'moment';
 import { Colors } from '../styles/Colors';
 import ChartButton from './ChartButton';
 
+type RangeType = 'today' | '3d' | '1w' | '1m' | 'all';
+
 type Props = PropsWithChildren<{
     selectedDate: moment.Moment;
 }>;
@@ -35,46 +37,48 @@ export default function LineChart({ selectedDate = moment() }: Props) {
     ];
 
     const [currentData, setCurrentData] = useState(latestData);
-    const [currentRange, setCurrentRange] = useState(selectedDate.startOf('day').toDate());
+    const [selectedRange, setSelectedRange] = useState<RangeType>('today');
 
-    const rangeButtons = useMemo(() => [
-        {
-            label: 'Heute',
-            startDate: selectedDate.startOf('day').toDate(),
-        },
-        {
-            label: '3 T',
-            startDate: selectedDate.subtract(3, 'days').startOf('day').toDate(),
-        },
-        {
-            label: '1 W',
-            startDate: selectedDate.subtract(7, 'days').startOf('day').toDate(),
-        },
-        {
-            label: '1 M',
-            startDate: selectedDate.subtract(30, 'days').startOf('day').toDate(),
-        },
-        {
-            label: 'All',
-            startDate: null,
+    // Calculate startDate based on selectedRange and selectedDate
+    const calculateStartDate = (range: RangeType): Date | null => {
+        switch (range) {
+            case 'today':
+                return selectedDate.clone().startOf('day').toDate();
+            case '3d':
+                return selectedDate.clone().subtract(3, 'days').startOf('day').toDate();
+            case '1w':
+                return selectedDate.clone().subtract(7, 'days').startOf('day').toDate();
+            case '1m':
+                return selectedDate.clone().subtract(30, 'days').startOf('day').toDate();
+            case 'all':
+                return null;
         }
-    ], [selectedDate]);
+    };
+
+    const currentStartDate = useMemo(() => calculateStartDate(selectedRange), [selectedRange, selectedDate]);
+
+    const rangeButtons: { label: string; range: RangeType }[] = [
+        { label: 'Heute', range: 'today' },
+        { label: '3 T', range: '3d' },
+        { label: '1 W', range: '1w' },
+        { label: '1 M', range: '1m' },
+        { label: 'All', range: 'all' },
+    ];
 
     const rangeButtonsComponents = useMemo(() => {
         return rangeButtons.map((button) => {
-            const isSelected = moment(currentRange).isSame(button.startDate) || (button.startDate === null && currentRange === null);
+            const isSelected = selectedRange === button.range;
 
             return (
                 <ChartButton
                     key={button.label}
                     label={button.label}
                     selected={isSelected}
-                    onPress={() => setCurrentRange(button.startDate)}
+                    onPress={() => setSelectedRange(button.range)}
                 />
-
             );
         });
-    }, [rangeButtons, currentRange]);
+    }, [selectedRange]);
 
     return (
         <View style={styles.container}>

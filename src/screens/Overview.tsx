@@ -6,6 +6,7 @@ import LineChart from '../components/LineChart';
 import moment from 'moment';
 import { Colors } from '../styles/Colors';
 import CalendarStrip from 'react-native-calendar-strip';
+import { PieChart } from 'react-native-gifted-charts';
 
 const HomeScreen = () => {
     const [selectedDate, setSelectedDate] = useState<moment.Moment>(moment());
@@ -24,7 +25,8 @@ const HomeScreen = () => {
             },
             week: {
                 dow: 1,
-            }
+            },
+            months: ['Januar', 'Februar', 'März', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember'],
         }
     };
 
@@ -34,8 +36,8 @@ const HomeScreen = () => {
         }
     }
 
-    const onDateSelected = (date: moment.Moment) => {
-        setSelectedDate(date);
+    const onDateSelected = (date: Date) => {
+        setSelectedDate(moment(date).startOf('day'));
     }
 
     return (
