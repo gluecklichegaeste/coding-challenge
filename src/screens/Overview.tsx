@@ -1,20 +1,28 @@
 import React, { useState } from 'react';
-import { View, ScrollView, StyleSheet } from 'react-native';
+import { View, ScrollView, StyleSheet, TouchableOpacity } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import SafeAreaEdges from '../constants/SafeAreaEdges';
 import LineChart from '../components/LineChart';
 import DonutChart from '../components/DonutChart';
+import RevenueGoalChart from '../components/RevenueGoalChart';
 import moment from 'moment';
 import { Colors } from '../styles/Colors';
 import CalendarStrip from 'react-native-calendar-strip';
 import { useSalesData } from '../hooks/useSalesData';
 import { RangeType } from '../types';
 
+const REVENUE_GOAL = 10000;
+
 const OverViewScreen = () => {
     const [selectedDate, setSelectedDate] = useState<moment.Moment>(moment('2024-11-01'));
     const [selectedRange, setSelectedRange] = useState<RangeType>('1w');
+    const [showRevenueChart, setShowRevenueChart] = useState(true);
 
     const { donutChartData, lineChartData, totalSales } = useSalesData(selectedDate, selectedRange);
+
+    const toggleChart = () => {
+        setShowRevenueChart(!showRevenueChart);
+    };
     const locale = {
         name: 'de',
         config: {
@@ -82,13 +90,26 @@ const OverViewScreen = () => {
                 />
             </View>
             <ScrollView>
-                <View style={styles.donutChart}>
-                    <DonutChart
-                        data={donutChartData}
-                        size={180}
-                        strokeWidth={20}
-                    />
-                </View>
+                <TouchableOpacity
+                    style={styles.chartContainer}
+                    onPress={toggleChart}
+                    activeOpacity={0.8}
+                >
+                    {showRevenueChart ? (
+                        <RevenueGoalChart
+                            currentValue={totalSales}
+                            goalValue={REVENUE_GOAL}
+                            size={200}
+                            strokeWidth={20}
+                        />
+                    ) : (
+                        <DonutChart
+                            data={donutChartData}
+                            size={180}
+                            strokeWidth={20}
+                        />
+                    )}
+                </TouchableOpacity>
                 <LineChart
                     selectedDate={selectedDate}
                     data={lineChartData}
@@ -109,10 +130,11 @@ const styles = StyleSheet.create({
         paddingHorizontal: 24,
         marginTop: 24,
     },
-    donutChart: {
+    chartContainer: {
         justifyContent: 'center',
         alignItems: 'center',
         paddingHorizontal: 24,
+        paddingVertical: 16,
     },
     lineChart: {
         flex: 1,
