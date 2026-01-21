@@ -28,6 +28,16 @@ const HomeScreen = () => {
         }
     };
 
+    const customDatesStylesFunc = (date: moment.Moment) => {
+        return {
+            dateContainerStyle: { height: 50, width: 30 },
+        }
+    }
+
+    const onDateSelected = (date: moment.Moment) => {
+        setSelectedDate(date);
+    }
+
     return (
         <SafeAreaView
             edges={SafeAreaEdges.topOnly}
@@ -40,14 +50,24 @@ const HomeScreen = () => {
                     calendarAnimation={{ type: 'sequence', duration: 30 }}
                     daySelectionAnimation={{ type: 'background', duration: 300, highlightColor: '#9265DC' }}
                     style={{ height: 150 }}
-                    iconContainer={{ flex: 0.1 }}
-                    dateNameStyle={{ fontSize: 14, fontWeight: 300 }}
-                    dateNumberStyle={{ fontSize: 14, fontWeight: 300 }}
+                    dayComponentHeight={50}
+                    dateNameStyle={{ fontSize: 14, fontWeight: '300' }}
+                    dateNumberStyle={{ fontSize: 14, fontWeight: '300' }}
                     highlightDateNameStyle={{ fontSize: 14, color: Colors.white }}
                     highlightDateNumberStyle={{ fontSize: 14, color: Colors.white }}
                     useIsoWeekday={false}
+                    customDatesStyles={customDatesStylesFunc}
                     selectedDate={selectedDate.toDate()}
-                    highlightDateContainerStyle={{ borderRadius: 15, backgroundColor: Colors.orange, width: 30, height: 50 }}
+                    dayContainerStyle={{ justifyContent: 'center', alignItems: 'center' }}
+                    highlightDateContainerStyle={{
+                        borderRadius: 15,
+                        backgroundColor: Colors.orange,
+                        width: 30,
+                        height: 50,
+                        justifyContent: 'center',
+                        alignItems: 'center',
+                    }}
+                    onDateSelected={onDateSelected}
                 />
             </View>
             <View style={styles.dountChart}>
