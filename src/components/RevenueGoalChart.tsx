@@ -55,15 +55,13 @@ const RevenueGoalChart = ({
     return (
         <View style={styles.container}>
             <View style={[styles.chartWrapper, { width: size, height: size }]}>
-                {/* Shadow circle */}
-                <View style={[styles.shadowCircle, { 
-                    width: size, 
-                    height: size, 
-                    borderRadius: size / 2 
+                <View style={[styles.shadowCircle, {
+                    width: size,
+                    height: size,
+                    borderRadius: size / 2
                 }]} />
-                
+
                 <Svg width={size} height={size} style={styles.svg}>
-                    {/* Background circle (light green) */}
                     <Circle
                         cx={size / 2}
                         cy={size / 2}
@@ -86,8 +84,6 @@ const RevenueGoalChart = ({
                             animatedProps={animatedProps}
                         />
                     </G>
-
-                    {/* Inner white circle */}
                     <Circle
                         cx={size / 2}
                         cy={size / 2}
@@ -95,8 +91,6 @@ const RevenueGoalChart = ({
                         fill={Colors.white}
                     />
                 </Svg>
-
-                {/* Center text */}
                 <View style={[styles.centerTextContainer, { width: size, height: size }]}>
                     <Text style={styles.currentValueText}>
                         {formatCurrency(currentValue)}/
