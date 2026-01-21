@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, ScrollView, StyleSheet } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import SafeAreaEdges from '../constants/SafeAreaEdges';
 import LineChart from '../components/LineChart';
@@ -81,19 +81,21 @@ const OverViewScreen = () => {
                     onDateSelected={onDateSelected}
                 />
             </View>
-            <View style={styles.donutChart}>
-                <DonutChart
-                    data={donutChartData}
-                    size={180}
-                    strokeWidth={20}
+            <ScrollView>
+                <View style={styles.donutChart}>
+                    <DonutChart
+                        data={donutChartData}
+                        size={180}
+                        strokeWidth={20}
+                    />
+                </View>
+                <LineChart
+                    selectedDate={selectedDate}
+                    data={lineChartData}
+                    selectedRange={selectedRange}
+                    onRangeChange={onRangeChange}
                 />
-            </View>
-            <LineChart
-                selectedDate={selectedDate}
-                data={lineChartData}
-                selectedRange={selectedRange}
-                onRangeChange={onRangeChange}
-            />
+            </ScrollView>
         </SafeAreaView>
     );
 };

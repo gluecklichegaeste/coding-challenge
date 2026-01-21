@@ -109,12 +109,26 @@ export const useSalesData = (selectedDate: moment.Moment, rangeType: RangeType =
     }, [categoryTotals]);
 
     const lineChartData = useMemo(() => {
+        // For "today", show cumulative sales progression
+        if (rangeType === 'today') {
+            let cumulativeTotal = 0;
+            return filteredData.map((item, index) => {
+                cumulativeTotal += item.Preis;
+                return {
+                    value: Math.round(cumulativeTotal * 100) / 100,
+                    label: `${index + 1}`,
+                    date: item.Datum,
+                };
+            });
+        }
+
+        // For other ranges, show daily totals
         return dailySales.map(item => ({
             value: item.total,
             label: moment(item.date).format('DD.MM'),
             date: item.date,
         }));
-    }, [dailySales]);
+    }, [dailySales, filteredData, rangeType]);
 
     const totalSales = useMemo(() => {
         return filteredData.reduce((sum, item) => sum + item.Preis, 0);
