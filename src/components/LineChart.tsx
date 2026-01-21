@@ -126,6 +126,8 @@ const styles = StyleSheet.create({
     buttonContainer: {
         flexDirection: 'row',
         gap: 10,
+        paddingTop: 10,
+        paddingHorizontal: 10,
     },
     noDataContainer: {
         height: 150,
