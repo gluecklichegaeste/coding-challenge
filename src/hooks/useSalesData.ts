@@ -50,7 +50,7 @@ export const useSalesData = (selectedDate: moment.Moment, rangeType: RangeType =
                 break;
             case 'all':
             default:
-                startDate = moment('2024-10-01');
+                startDate = moment('1970-01-01');
                 break;
         }
 

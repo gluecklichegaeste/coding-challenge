@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { View, ScrollView, StyleSheet, Pressable } from 'react-native';
+import { View, ScrollView, StyleSheet, Pressable, TextInput } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import SafeAreaEdges from '../constants/SafeAreaEdges';
 import LineChart from '../components/LineChart';
@@ -113,7 +113,9 @@ const OverViewScreen = () => {
                     onDateSelected={onDateSelected}
                 />
             </View>
-            <ScrollView>
+            <ScrollView
+                automaticallyAdjustKeyboardInsets={true}
+            >
                 <Pressable style={styles.chartContainer} onPress={toggleChart}>
                     <Animated.View style={[styles.flipCard, frontAnimatedStyle]}>
                         <RevenueGoalChart
