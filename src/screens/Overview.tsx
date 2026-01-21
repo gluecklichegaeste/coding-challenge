@@ -10,6 +10,7 @@ import { Colors } from '../styles/Colors';
 import CalendarStrip from 'react-native-calendar-strip';
 import { useSalesData } from '../hooks/useSalesData';
 import { RangeType } from '../types';
+import { germanLocale } from '../constants/locale';
 import Animated, {
     useSharedValue,
     useAnimatedStyle,
@@ -68,25 +69,6 @@ const OverViewScreen = () => {
     const toggleChart = () => {
         setShowRevenueChart(!showRevenueChart);
     };
-    const locale = {
-        name: 'de',
-        config: {
-            weekdays: ['Sonntag', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag'],
-            weekdaysShort: ['S', 'M', 'D', 'M', 'D', 'F', 'S'],
-            longDateFormat: {
-                LT: 'HH:mm',
-                LTS: 'HH:mm:ss',
-                L: 'DD/MM/YYYY',
-                LL: 'D MMMM YYYY',
-                LLL: 'D MMMM YYYY LT',
-                LLLL: 'dddd D MMMM YYYY LT'
-            },
-            week: {
-                dow: 1,
-            },
-            months: ['Januar', 'Februar', 'März', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember'],
-        }
-    };
 
     const customDatesStylesFunc = (date: moment.Moment) => {
         return {
@@ -110,7 +92,7 @@ const OverViewScreen = () => {
             <View style={styles.daySelector}>
                 <CalendarStrip
                     scrollable
-                    locale={locale}
+                    locale={germanLocale}
                     calendarAnimation={{ type: 'sequence', duration: 30 }}
                     daySelectionAnimation={{ type: 'background', duration: 300, highlightColor: '#9265DC' }}
                     style={styles.calendarStrip}
