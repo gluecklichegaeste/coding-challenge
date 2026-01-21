@@ -4,8 +4,7 @@ import { CurveType, LineChart as GiftedLineChart } from "react-native-gifted-cha
 import moment from 'moment';
 import { Colors } from '../styles/Colors';
 import ChartButton from './ChartButton';
-
-export type RangeType = 'today' | '3d' | '1w' | '1m' | 'all';
+import { RangeType } from '../types';
 
 type ChartDataPoint = {
     value: number;

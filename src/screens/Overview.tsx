@@ -8,8 +8,7 @@ import moment from 'moment';
 import { Colors } from '../styles/Colors';
 import CalendarStrip from 'react-native-calendar-strip';
 import { useSalesData } from '../hooks/useSalesData';
-
-type RangeType = 'today' | '3d' | '1w' | '1m' | 'all';
+import { RangeType } from '../types';
 
 const OverViewScreen = () => {
     const [selectedDate, setSelectedDate] = useState<moment.Moment>(moment('2024-11-01'));

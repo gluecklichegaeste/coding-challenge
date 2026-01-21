@@ -4,6 +4,7 @@ import Screens from '../constants/screens';
 
 import { OverviewScreen, AccountingScreen, LearningScreen } from '../screens';
 import { ChartIcon, AccountingIcon, LearningIcon } from '../components/icons';
+import { Colors } from '../styles/Colors';
 
 export type TabParamList = {
     Overview: undefined;
@@ -18,6 +19,7 @@ const TabNavigator = () => {
         <Tab.Navigator
             screenOptions={{
                 headerShown: false,
+                tabBarActiveTintColor: Colors.darkGreen,
             }}
         >
             <Tab.Screen
@@ -27,6 +29,7 @@ const TabNavigator = () => {
                     tabBarIcon: ({ color, size }) => (
                         <ChartIcon size={size} color={color} />
                     ),
+                    tabBarLabel: 'Übersicht',
                 }}
             />
             <Tab.Screen
@@ -36,6 +39,7 @@ const TabNavigator = () => {
                     tabBarIcon: ({ color, size }) => (
                         <AccountingIcon size={size} color={color} />
                     ),
+                    tabBarLabel: 'Buchhaltung',
                 }}
             />
             <Tab.Screen
@@ -45,6 +49,7 @@ const TabNavigator = () => {
                     tabBarIcon: ({ color, size }) => (
                         <LearningIcon size={size} color={color} />
                     ),
+                    tabBarLabel: 'Lernen',
                 }}
             />
         </Tab.Navigator>

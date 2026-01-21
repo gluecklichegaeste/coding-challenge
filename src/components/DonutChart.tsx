@@ -87,7 +87,6 @@ const DonutChart = ({
         <View style={styles.container}>
             <View style={[styles.chartWrapper, { width: size, height: size }]}>
                 <Svg width={size} height={size}>
-                    {/* Animated segments */}
                     {data.map((item, index) => {
                         const { segmentLength, gapLength, rotation } = getSegmentProps(index);
 

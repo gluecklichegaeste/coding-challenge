@@ -1,6 +1,7 @@
 import { useMemo } from 'react';
 import moment from 'moment';
 import salesData from '../../sales.json';
+import { RangeType } from '../types';
 
 type SaleItem = {
     Datum: string;
@@ -26,7 +27,7 @@ const CATEGORY_COLORS: Record<string, string> = {
     'Tierprodukte': '#4A90D9',
 };
 
-export const useSalesData = (selectedDate: moment.Moment, rangeType: 'today' | '3d' | '1w' | '1m' | 'all' = 'today') => {
+export const useSalesData = (selectedDate: moment.Moment, rangeType: RangeType = 'today') => {
     const data = salesData as SaleItem[];
 
     // Calculate date range based on rangeType
@@ -56,16 +57,14 @@ export const useSalesData = (selectedDate: moment.Moment, rangeType: 'today' | '
         return { startDate, endDate };
     }, [selectedDate, rangeType]);
 
-    // Filter data by date range
     const filteredData = useMemo(() => {
         return data.filter(item => {
             const itemDate = moment(item.Datum);
-            return itemDate.isSameOrAfter(dateRange.startDate, 'day') && 
-                   itemDate.isSameOrBefore(dateRange.endDate, 'day');
+            return itemDate.isSameOrAfter(dateRange.startDate, 'day') &&
+                itemDate.isSameOrBefore(dateRange.endDate, 'day');
         });
     }, [data, dateRange]);
 
-    // Aggregate by category for DonutChart
     const categoryTotals = useMemo((): CategoryTotal[] => {
         const totals: Record<string, number> = {};
 
@@ -83,7 +82,6 @@ export const useSalesData = (selectedDate: moment.Moment, rangeType: 'today' | '
         }));
     }, [filteredData]);
 
-    // Aggregate by day for LineChart
     const dailySales = useMemo((): DailySales[] => {
         const salesByDay: Record<string, number> = {};
 
@@ -94,7 +92,6 @@ export const useSalesData = (selectedDate: moment.Moment, rangeType: 'today' | '
             salesByDay[item.Datum] += item.Preis;
         });
 
-        // Sort by date and return
         return Object.entries(salesByDay)
             .map(([date, total]) => ({
                 date,
@@ -103,7 +100,6 @@ export const useSalesData = (selectedDate: moment.Moment, rangeType: 'today' | '
             .sort((a, b) => a.date.localeCompare(b.date));
     }, [filteredData]);
 
-    // Format data for DonutChart component
     const donutChartData = useMemo(() => {
         return categoryTotals.map(item => ({
             value: item.total,
@@ -112,7 +108,6 @@ export const useSalesData = (selectedDate: moment.Moment, rangeType: 'today' | '
         }));
     }, [categoryTotals]);
 
-    // Format data for LineChart component (gifted-charts format)
     const lineChartData = useMemo(() => {
         return dailySales.map(item => ({
             value: item.total,
@@ -121,7 +116,6 @@ export const useSalesData = (selectedDate: moment.Moment, rangeType: 'today' | '
         }));
     }, [dailySales]);
 
-    // Calculate total sales
     const totalSales = useMemo(() => {
         return filteredData.reduce((sum, item) => sum + item.Preis, 0);
     }, [filteredData]);
