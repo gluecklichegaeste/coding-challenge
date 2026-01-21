@@ -3,12 +3,12 @@ import { View, Text, StyleSheet } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import SafeAreaEdges from '../constants/SafeAreaEdges';
 import LineChart from '../components/LineChart';
+import DonutChart from '../components/DonutChart';
 import moment from 'moment';
 import { Colors } from '../styles/Colors';
 import CalendarStrip from 'react-native-calendar-strip';
-import { PieChart } from 'react-native-gifted-charts';
 
-const HomeScreen = () => {
+const OverViewScreen = () => {
     const [selectedDate, setSelectedDate] = useState<moment.Moment>(moment());
     const locale = {
         name: 'de',
@@ -36,9 +36,15 @@ const HomeScreen = () => {
         }
     }
 
-    const onDateSelected = (date: Date) => {
-        setSelectedDate(moment(date).startOf('day'));
+    const onDateSelected = (date: moment.Moment) => {
+        setSelectedDate(date.clone().startOf('day'));
     }
+
+    const donutData = [
+        { value: 60, color: '#4A90D9', label: 'Tierprodukte' },
+        { value: 20, color: '#9B59B6', label: 'Pflegeprodukte' },
+        { value: 20, color: '#27AE60', label: 'Nahrungsmittel' },
+    ];
 
     return (
         <SafeAreaView
@@ -72,8 +78,12 @@ const HomeScreen = () => {
                     onDateSelected={onDateSelected}
                 />
             </View>
-            <View style={styles.dountChart}>
-
+            <View style={styles.donutChart}>
+                <DonutChart
+                    data={donutData}
+                    size={200}
+                    strokeWidth={26}
+                />
             </View>
             <LineChart
                 selectedDate={selectedDate}
@@ -91,8 +101,7 @@ const styles = StyleSheet.create({
         paddingHorizontal: 24,
         marginTop: 24,
     },
-    dountChart: {
-
+    donutChart: {
         justifyContent: 'center',
         alignItems: 'center',
         paddingHorizontal: 24,
@@ -105,4 +114,4 @@ const styles = StyleSheet.create({
     },
 });
 
-export default HomeScreen;
+export default OverViewScreen;
