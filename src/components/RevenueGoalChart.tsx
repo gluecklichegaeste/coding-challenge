@@ -70,8 +70,6 @@ const RevenueGoalChart = ({
                         strokeWidth={strokeWidth}
                         fill="none"
                     />
-
-                    {/* Progress circle (dark green) */}
                     <G rotation={-90} origin={`${size / 2}, ${size / 2}`}>
                         <AnimatedCircle
                             cx={size / 2}
@@ -131,12 +129,12 @@ const styles = StyleSheet.create({
         alignItems: 'center',
     },
     currentValueText: {
-        fontSize: 32,
+        fontSize: 22,
         fontWeight: '600',
         color: Colors.black,
     },
     goalValueText: {
-        fontSize: 32,
+        fontSize: 22,
         fontWeight: '600',
         color: Colors.black,
     },
