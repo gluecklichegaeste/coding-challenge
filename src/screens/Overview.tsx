@@ -12,10 +12,10 @@ const HomeScreen = () => {
         >
             <View style={styles.daySelector}>
             </View>
-            <View style={styles.dountChart}></View>
+            <View style={styles.dountChart}>
+
+            </View>
             <LineChart
-                target={10000}
-                actual={2000}
             />
         </SafeAreaView>
     );
@@ -33,14 +33,14 @@ const styles = StyleSheet.create({
     dountChart: {
         flex: 1,
         justifyContent: 'center',
-        alignItems: 'center', paddingHorizontal: 24,
+        alignItems: 'center',
+        paddingHorizontal: 24,
     },
     lineChart: {
         flex: 1,
         backgroundColor: 'green',
         justifyContent: 'center',
         alignItems: 'center',
-
     },
 });
 
