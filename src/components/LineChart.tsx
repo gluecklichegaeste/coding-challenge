@@ -6,10 +6,10 @@ import { Colors } from '../styles/Colors';
 import ChartButton from './ChartButton';
 
 type Props = PropsWithChildren<{
-    selectedDate: Date | null;
+    selectedDate: moment.Moment;
 }>;
 
-export default function LineChart({ selectedDate = moment().startOf('day').toDate() }: Props) {
+export default function LineChart({ selectedDate = moment() }: Props) {
     const latestData = [
         {
             value: 100,
@@ -35,30 +35,30 @@ export default function LineChart({ selectedDate = moment().startOf('day').toDat
     ];
 
     const [currentData, setCurrentData] = useState(latestData);
-    const [currentRange, setCurrentRange] = useState();
+    const [currentRange, setCurrentRange] = useState(selectedDate.startOf('day').toDate());
 
     const rangeButtons = useMemo(() => [
         {
             label: 'Heute',
-            startDate: moment().startOf('day').toDate(),
+            startDate: selectedDate.startOf('day').toDate(),
         },
         {
             label: '3 T',
-            startDate: moment().subtract(3, 'days').startOf('day').toDate(),
+            startDate: selectedDate.subtract(3, 'days').startOf('day').toDate(),
         },
         {
             label: '1 W',
-            startDate: moment().subtract(7, 'days').startOf('day').toDate(),
+            startDate: selectedDate.subtract(7, 'days').startOf('day').toDate(),
         },
         {
             label: '1 M',
-            startDate: moment().subtract(30, 'days').startOf('day').toDate(),
+            startDate: selectedDate.subtract(30, 'days').startOf('day').toDate(),
         },
         {
             label: 'All',
             startDate: null,
         }
-    ], []);
+    ], [selectedDate]);
 
     const rangeButtonsComponents = useMemo(() => {
         return rangeButtons.map((button) => {

@@ -1,7 +1,5 @@
 import { useMemo, useState, type PropsWithChildren } from 'react';
 import { StyleSheet, View, Text, TouchableOpacity } from 'react-native';
-import { CurveType, LineChart as GiftedLineChart } from "react-native-gifted-charts";
-import moment from 'moment';
 import { Colors } from '../styles/Colors';
 
 type Props = PropsWithChildren<{
