@@ -7,9 +7,15 @@ import DonutChart from '../components/DonutChart';
 import moment from 'moment';
 import { Colors } from '../styles/Colors';
 import CalendarStrip from 'react-native-calendar-strip';
+import { useSalesData } from '../hooks/useSalesData';
+
+type RangeType = 'today' | '3d' | '1w' | '1m' | 'all';
 
 const OverViewScreen = () => {
-    const [selectedDate, setSelectedDate] = useState<moment.Moment>(moment());
+    const [selectedDate, setSelectedDate] = useState<moment.Moment>(moment('2024-11-01'));
+    const [selectedRange, setSelectedRange] = useState<RangeType>('1w');
+
+    const { donutChartData, lineChartData, totalSales } = useSalesData(selectedDate, selectedRange);
     const locale = {
         name: 'de',
         config: {
@@ -40,11 +46,9 @@ const OverViewScreen = () => {
         setSelectedDate(date.clone().startOf('day'));
     }
 
-    const donutData = [
-        { value: 60, color: '#4A90D9', label: 'Tierprodukte' },
-        { value: 20, color: '#9B59B6', label: 'Pflegeprodukte' },
-        { value: 20, color: '#27AE60', label: 'Nahrungsmittel' },
-    ];
+    const onRangeChange = (range: RangeType) => {
+        setSelectedRange(range);
+    };
 
     return (
         <SafeAreaView
@@ -80,13 +84,16 @@ const OverViewScreen = () => {
             </View>
             <View style={styles.donutChart}>
                 <DonutChart
-                    data={donutData}
-                    size={200}
-                    strokeWidth={26}
+                    data={donutChartData}
+                    size={180}
+                    strokeWidth={20}
                 />
             </View>
             <LineChart
                 selectedDate={selectedDate}
+                data={lineChartData}
+                selectedRange={selectedRange}
+                onRangeChange={onRangeChange}
             />
         </SafeAreaView>
     );

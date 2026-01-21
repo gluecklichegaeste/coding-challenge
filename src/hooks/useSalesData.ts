@@ -1,0 +1,137 @@
+import { useMemo } from 'react';
+import moment from 'moment';
+import salesData from '../../sales.json';
+
+type SaleItem = {
+    Datum: string;
+    Preis: number;
+    Produktname: string;
+    Produktkategorie: string;
+};
+
+type CategoryTotal = {
+    category: string;
+    total: number;
+    color: string;
+};
+
+type DailySales = {
+    date: string;
+    total: number;
+};
+
+const CATEGORY_COLORS: Record<string, string> = {
+    'Pflegeprodukte': '#9B59B6',
+    'Nahrungsmittel': '#27AE60',
+    'Tierprodukte': '#4A90D9',
+};
+
+export const useSalesData = (selectedDate: moment.Moment, rangeType: 'today' | '3d' | '1w' | '1m' | 'all' = 'today') => {
+    const data = salesData as SaleItem[];
+
+    // Calculate date range based on rangeType
+    const dateRange = useMemo(() => {
+        const endDate = selectedDate.clone().endOf('day');
+        let startDate: moment.Moment;
+
+        switch (rangeType) {
+            case 'today':
+                startDate = selectedDate.clone().startOf('day');
+                break;
+            case '3d':
+                startDate = selectedDate.clone().subtract(2, 'days').startOf('day');
+                break;
+            case '1w':
+                startDate = selectedDate.clone().subtract(6, 'days').startOf('day');
+                break;
+            case '1m':
+                startDate = selectedDate.clone().subtract(29, 'days').startOf('day');
+                break;
+            case 'all':
+            default:
+                startDate = moment('2024-10-01');
+                break;
+        }
+
+        return { startDate, endDate };
+    }, [selectedDate, rangeType]);
+
+    // Filter data by date range
+    const filteredData = useMemo(() => {
+        return data.filter(item => {
+            const itemDate = moment(item.Datum);
+            return itemDate.isSameOrAfter(dateRange.startDate, 'day') && 
+                   itemDate.isSameOrBefore(dateRange.endDate, 'day');
+        });
+    }, [data, dateRange]);
+
+    // Aggregate by category for DonutChart
+    const categoryTotals = useMemo((): CategoryTotal[] => {
+        const totals: Record<string, number> = {};
+
+        filteredData.forEach(item => {
+            if (!totals[item.Produktkategorie]) {
+                totals[item.Produktkategorie] = 0;
+            }
+            totals[item.Produktkategorie] += item.Preis;
+        });
+
+        return Object.entries(totals).map(([category, total]) => ({
+            category,
+            total: Math.round(total * 100) / 100,
+            color: CATEGORY_COLORS[category] || '#888888',
+        }));
+    }, [filteredData]);
+
+    // Aggregate by day for LineChart
+    const dailySales = useMemo((): DailySales[] => {
+        const salesByDay: Record<string, number> = {};
+
+        filteredData.forEach(item => {
+            if (!salesByDay[item.Datum]) {
+                salesByDay[item.Datum] = 0;
+            }
+            salesByDay[item.Datum] += item.Preis;
+        });
+
+        // Sort by date and return
+        return Object.entries(salesByDay)
+            .map(([date, total]) => ({
+                date,
+                total: Math.round(total * 100) / 100,
+            }))
+            .sort((a, b) => a.date.localeCompare(b.date));
+    }, [filteredData]);
+
+    // Format data for DonutChart component
+    const donutChartData = useMemo(() => {
+        return categoryTotals.map(item => ({
+            value: item.total,
+            color: item.color,
+            label: item.category,
+        }));
+    }, [categoryTotals]);
+
+    // Format data for LineChart component (gifted-charts format)
+    const lineChartData = useMemo(() => {
+        return dailySales.map(item => ({
+            value: item.total,
+            label: moment(item.date).format('DD.MM'),
+            date: item.date,
+        }));
+    }, [dailySales]);
+
+    // Calculate total sales
+    const totalSales = useMemo(() => {
+        return filteredData.reduce((sum, item) => sum + item.Preis, 0);
+    }, [filteredData]);
+
+    return {
+        donutChartData,
+        lineChartData,
+        categoryTotals,
+        dailySales,
+        totalSales: Math.round(totalSales * 100) / 100,
+        dateRange,
+    };
+};

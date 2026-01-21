@@ -39,9 +39,6 @@ const DonutChart = ({
     const radius = (size - strokeWidth) / 2;
     const circumference = 2 * Math.PI * radius;
     const center = size / 2;
-
-    // Account for rounded caps extending the visual segment length
-    // Each rounded cap adds strokeWidth/2 on each end
     const roundedCapCompensation = strokeWidth;
     const effectiveGapSize = gapSize + roundedCapCompensation;
     const gapDegrees = (effectiveGapSize / circumference) * 360;
@@ -56,7 +53,6 @@ const DonutChart = ({
         });
     }, [data]);
 
-    // Calculate stroke dash arrays for each segment with gaps
     const getSegmentProps = (index: number) => {
         let cumulativeAngle = 0;
         for (let i = 0; i < index; i++) {
@@ -67,8 +63,6 @@ const DonutChart = ({
         const segmentDegrees = (data[index].value / total) * availableDegrees;
         const segmentLength = (segmentDegrees / 360) * circumference;
         const gapLength = circumference - segmentLength;
-
-        // Offset by half gap to center the gap between segments
         const rotation = -90 + cumulativeAngle + (gapDegrees / 2);
 
         return {
@@ -199,13 +193,13 @@ const styles = StyleSheet.create({
         paddingHorizontal: 16,
     },
     legendBadge: {
-        paddingVertical: 10,
-        paddingHorizontal: 18,
-        borderRadius: 8,
+        paddingVertical: 5,
+        paddingHorizontal: 6,
+        borderRadius: 5,
     },
     legendText: {
         color: Colors.white,
-        fontSize: 10,
+        fontSize: 14,
         fontWeight: '600',
     },
 });
