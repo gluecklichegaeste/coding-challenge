@@ -14,7 +14,11 @@ const Tab = createBottomTabNavigator<TabParamList>();
 
 const TabNavigator = () => {
     return (
-        <Tab.Navigator>
+        <Tab.Navigator
+            screenOptions={{
+                headerShown: false,
+            }}
+        >
             <Tab.Screen
                 name={Screens.OVERVIEW}
                 component={OverviewScreen}
